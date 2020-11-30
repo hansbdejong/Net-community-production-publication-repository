@@ -7,8 +7,6 @@
 
 % change as appropriate
 cd('C:\')
-dir_content = dir('C:\1.*');
-A = {dir_content.name}
 
 %  Provides the longitude values 
 lonGrid = double(hdfread('LongitudeLatitudeGrid-s3125-RossSea.hdf', 'Longitudes'));
