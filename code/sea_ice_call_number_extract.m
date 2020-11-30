@@ -24,9 +24,6 @@ lat = fid(:,3);
 % /lons centered at row / col
 delta_row = [-2 -2 -2 -2 -2 -1 -1 -1 -1 -1 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2]; 
 delta_col = [-2 -1 0 1 2 -2 -1 0 1 2 -2 -1 0 1 2 -2 -1 0 1 2 -2 -1 0 1 2];
-delta_row';
-delta_col';
- 
 
 %this is just the start points to seach for the shortest distance
 row = 300; 
