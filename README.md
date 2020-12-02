@@ -17,11 +17,11 @@ was defined as the depth where Δσ<sub>t</sub> first exceeds a threshold. We fo
 We calculated the deficits (Def) of nDIC and nNO3 (in mol m<sup>-2</sup>) by subtracting the integrated nutrient stock at
 each station from the prebloom integrated stock according to:
 
-<img src="https://render.githubusercontent.com/render/math?math=Def(X)=\int_{0}^{200} (X(winter))dz - \int_{0}^{200} (X(late\ summer))dz  ">
+<img src="https://render.githubusercontent.com/render/math?math=Def(X)=\int_{0}^{200} (X(winter))dz - \int_{0}^{200} (X(late \: summer))dz  ">
 
 where X is the nutrient concentration in mol m<sup>-3</sup>. Similarly, we calculated the surplus (Surp) of POC and DOC (in mol m<sup>-2</sup>) from prebloom conditions as follows:
 
-<img src="https://render.githubusercontent.com/render/math?math=Surp(X)=\int_{0}^{200} (X(late\ summer))dz -\int_{0}^{200} (X(winter))dz">
+<img src="https://render.githubusercontent.com/render/math?math=Surp(X)=\int_{0}^{200} (X(late \: summer))dz -\int_{0}^{200} (X(winter))dz">
 
 To calculate sNCP (mol m<sup>-2</sup>, prebloom to the sampling date), we corrected the nDIC deficit for air-sea CO2 fluxes in mol m<sup>-2</sup> from 1 November, prior to substantial clearing of sea ice, to the sampling date. A positive CO2 flux represents flux into the ocean:
 
@@ -35,13 +35,13 @@ Finally, to calculate sExport_200 below 200m depth (in mol m<sup>-2</sup>, prebl
 
 We calculated the daily air-sea CO2 fluxes at each station from 1 November until the station arrival date following
 
-<img src="https://render.githubusercontent.com/render/math?math=CO_2\ flux = (1-A)ks(\Delta \textit{p}CO_2) ">
+<img src="https://render.githubusercontent.com/render/math?math=CO_2 \: flux = (1-A)ks(\Delta \textit{p}CO_2) ">
 
 where A is the proportion of each grid cell that is covered by sea ice, k is the CO2 gas transfer velocity
 (cm h m<sup>-1</sup>), s is the solubility of CO2 in seawater (mol L m<sup>-1</sup> atm m<sup>-1</sup>), and ΔpCO2 is the pCO2 of the atmosphere (pCO2_atm) minus the pCO2 of seawater. The gas transfer velocity term “k” is a function of wind speed at
 10m height (U10) and the temperature-dependent Schmidt number (Sc) [Wanninkhof, 1992]:
 
-<img src="https://render.githubusercontent.com/render/math?math=k = 0.31 \ U_{10}^2 \ (Sc/660)^{-0.5} ">
+<img src="https://render.githubusercontent.com/render/math?math=k \: = \:  0.31 \: U_{10}^2 \ (Sc/660)^{-0.5} ">
 
 The solubility term “s” is a function of temperature and salinity [Weiss, 1974]. 
 
@@ -75,7 +75,7 @@ We used Monte Carlo simulations to estimate the uncertainty of the deficit and s
 
 Finally, we estimated the uncertainties of Surp(TOC), sNCP, and sExport_200 through error propogation:
 
-<img src="https://render.githubusercontent.com/render/math?math=\sigma^{2}_{X \pm Y}=\sigma_{X}^{2} + \sigma_{Y}^{2}  ">
+<img src="https://render.githubusercontent.com/render/math?math=\sigma^{2}_{X \pm Y}=\sigma_{X}^{2} %2B \sigma_{Y}^{2}\  ">
 
 where σ2 is the variance and X and Y represent the parameters that are summed or subtracted. This approach
 assumes that the errors are random, independent, and normally distributed.
